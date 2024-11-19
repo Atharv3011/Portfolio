@@ -1,0 +1,25 @@
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.project-card h3 {
+    margin-top: 15px;
+}
